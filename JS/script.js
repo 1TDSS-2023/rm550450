@@ -46,7 +46,11 @@ btn.addEventListener("click", function () {
     g = Math.round(Math.random() * 255);
     b = Math.round(Math.random() * 255);
 
-    this.setAttribute(
-        "style",
-        `background-color: rgb(${r}, ${g},${b});`);
+    this.setAttribute("style", `background-color: rgb(${r}, ${g},${b});`);
 });
+
+// <h2 class="tit-sec">Seçao de Fotos</h2>
+
+const h2Element = document.querySelector(".tit-sec");
+
+console.log(h2Element);
