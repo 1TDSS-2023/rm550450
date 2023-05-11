@@ -1,6 +1,6 @@
 let tmp = "";
 
-ARROW FUNCTION - diferenca eh q eh declarada como variavel "mudaCor". fora isso, o uso eh o mesmo
+//ARROW FUNCTION - diferenca eh q eh declarada como variavel "mudaCor". fora isso, o uso eh o mesmo
 const mudaCor = () => {
     let r = Math.round(Math.random() * 255);
     let g = Math.round(Math.random() * 255);
